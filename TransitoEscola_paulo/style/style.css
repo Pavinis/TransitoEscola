@@ -1,0 +1,80 @@
+:root {
+    --alturaCabecalho: 400px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:unset;
+}
+
+body{
+    background-color: rgb(153, 255, 0);
+    display:flex;
+    justify-content: center;
+}
+
+/*Cabeçalho*/
+#cabecalho {
+    display:flex;
+    background-color: blue;
+    height: 200px;
+    position:sticky;
+}
+
+#prefeituraDeJoinville {
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#prefeituraDeJoinville img {
+    height: 100px;
+    width: auto;
+    margin:20px;
+}
+
+.botaoCabecalho {
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    border-radius: 100%;
+    height:110px;
+    width:110px;
+    justify-content: center;
+    text-align: center;
+    margin:10px;
+}
+
+.botaoCabecalho img {
+    height:50px;
+    width: 50px;
+}
+
+.botaoCabecalho p {
+    font-size: 30px;
+}
+
+#loginCabecalho {
+    margin-left: 50px;
+}
+
+#loginCabecalho img {
+    height:110px;
+    width: 110px;
+}
+
+/*Extras*/
+.row {
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+
+.column {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+}
