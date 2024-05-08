@@ -1,4 +1,8 @@
 
-.container {
-  padding: 250px;
+
+
+body {
+    padding: 220px;
+    text-align: center;
+    border-radius: 100%;
 }
