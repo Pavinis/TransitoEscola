@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(153, 255, 0);
+    background-color: rgb(0, 0, 0);
     display:flex;
     justify-content: center;
     background-image: url(../style/imagens/fundo.png);
@@ -13,11 +13,18 @@ body{
 }
 
 /*Cabeçalho*/
+#stickyCabecalho {
+    overflow:inherit;
+    height: 215px;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
 #cabecalho {
     display:flex;
     background-color: #05466c;
     height: 200px;
-    position:sticky;
     border-bottom: 15px solid black;
 }
 
@@ -40,7 +47,7 @@ body{
 
 .faixaCabecalho {
     background-color: white;
-    height:200px;
+    height:204px;
     width:80px;
     margin-bottom: -145;
 }
@@ -54,7 +61,21 @@ body{
     width:110px;
     justify-content: center;
     text-align: center;
-    margin:0 10 35 10;
+    margin:0 5 30 5;
+    border:5px solid white;
+}
+
+.botaoCabecalho:hover {
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    border-radius: 100%;
+    height:110px;
+    width:110px;
+    margin:0 5 30 5;
+    border:5px solid #05466c;
+    justify-content: center;
+    text-align: center;
 }
 
 .botaoCabecalho img {
@@ -64,6 +85,7 @@ body{
 }
 
 .botaoCabecalho p {
+    font-family:sans-serif;
     font-size: 30px;
     opacity:0.5;
     text-decoration: none;
@@ -91,7 +113,7 @@ body{
     height:110px;
     width:110px;
     margin:0 5 30 5;
-    border:5px solid white;
+    border:5px solid black;
     justify-content: center;
     text-align: center;
 }
@@ -103,6 +125,7 @@ body{
 }
 
 .botaoEssaPagina p{
+    font-family:sans-serif;
     font-size: 30px;
     opacity:1;
     text-decoration: none;
@@ -155,6 +178,61 @@ body{
     margin-top: 10%;
     background-image: url(../style/imagens/fundo.png);
     background-size: 100% auto;
+}
+
+/*página inicial*/
+#fundoCadastre-se {
+    content:"";
+    background-image: url(../style/imagens/fundoCadastre-se.png);
+    background-size:cover;
+    background-position: center;
+    height:600px;
+    opacity:0.5;
+    margin-top: 30px;
+}
+
+.fundoCadastre-seDiv{
+    height: 15px;
+    opacity:1;
+    margin-top: 25px;
+    background-image: url(../style/imagens/fundo.png);
+    background-size: 100% auto;
+}
+
+#cadastre-se {
+    background-image: url(../style/imagens/fundo2Cadastre-se.png);
+    background-size: auto 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:500px;
+    opacity:1;
+    text-align: center;
+}
+
+#cadastre-se p {
+    font-family:sans-serif;
+    font-size: 40px;
+    padding:20% 0 0 18%;
+    color:rgb(255, 217, 190);
+}
+
+#botaoCadastrar-se {
+    display:inline-flex;
+    background-color: black;
+    border-radius: 20%;
+    margin:0 0 -200px 0;
+    margin:20px 0 0 18%;
+    border-left: 5px solid white;
+    border-right: 5px solid white;
+}
+
+#botaoCadastrar-se:hover {
+    background-color: rgb(33, 33, 33);
+}
+
+#botaoCadastrar-se p {
+    padding:0 0 0 0;
+    margin:0 10px 0 10px;
 }
 
 /*Extras*/
