@@ -2,7 +2,19 @@
 
 
 body {
+    background-color:black;
+    background-image:url(Imagens/fundo.png);
+    background-size: 100% auto;
     padding: 220px;
     text-align: center;
     border-radius: 100%;
+}
+
+.CaixaCadastro {
+    background-color: white;
+    border-left: 10px;
+    border-right: 10px;
+    border-width: 50%;
+    width: 70%;
+    height: 180px;
 }
