@@ -150,6 +150,36 @@ body{
     margin-top: 30px;
 }
 
+/*titulo trânsito e escola*/
+#tituloTransitoBorda{
+    border-bottom: 15px solid rgb(0, 0, 0)
+}
+
+#tituloTransito {
+    height:300px;
+    background-image: url("../style/imagens/imagemTitulo.png");
+    background-size:cover;
+    background-position: 50% 80%;
+    opacity:0.5;
+    display:flex;
+    flex-direction: column;
+}
+
+#tituloTransito u {
+    padding: 10% 0 0 5%;
+    font-size: 70px;
+    opacity:0.9;
+    font-style: italic;
+}
+
+#tituloTransito div {
+    height: 15px;
+    opacity:1;
+    margin-top: 10%;
+    background-image: url(../style/imagens/fundo.png);
+    background-size: 100% auto;
+}
+
 /*Extras*/
 .row {
     display:flex;

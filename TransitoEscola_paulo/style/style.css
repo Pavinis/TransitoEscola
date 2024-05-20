@@ -248,7 +248,7 @@ body{
     font-size:50px;
 }
 
-.materiaisAcessiveisImg1 {
+#materiaisAcessiveis1 {
     width: 200px;
     height: 320px;
     border: 10px solid black;
@@ -258,7 +258,7 @@ body{
     background-size: cover;
 }
 
-.materiaisAcessiveisImg2 {
+#materiaisAcessiveis2 {
     width: 200px;
     height: 320px;
     border: 10px solid black;
@@ -268,13 +268,13 @@ body{
     background-size: cover;
 }
 
-.materiaisAcessiveisImg3 {
+#materiaisAcessiveis3 {
     width: 200px;
     height: 320px;
     border: 10px solid black;
     border-radius:30%;
     margin:10px 20px 0 20px;
-    background-image: url(../style/imagens/materiaisDisponiveisFund1.jpg);
+    background-image: url(../style/imagens/materiaisDisponiveisFund3.png);
     background-size: cover;
 }
 
