@@ -278,6 +278,34 @@ body{
     background-size: cover;
 }
 
+.materiaisAcessiveisBotao {
+    text-align: center;
+    background-color: darkgreen;
+    width:240px;
+    height:150px;
+    margin:10px 20px 0 20px;
+    border-bottom: 10px solid black;
+    border-right: 10px solid black;
+}
+
+.materiaisAcessiveisBotao:active {
+    text-align: center;
+    background-color: darkgreen;
+    width:240px;
+    height:150px;
+    margin:20px 20px 0 30px;
+    border-bottom: 0px solid black;
+    border-right: 0px solid black;
+}
+
+.materiaisAcessiveisBotao p{
+    color:rgb(177, 255, 177);
+}
+
+.materiaisAcessiveisBotao a{
+    text-decoration: none;
+}
+
 /*Extras*/
 .row {
     display:flex;
