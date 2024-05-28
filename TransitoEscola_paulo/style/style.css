@@ -143,11 +143,39 @@ body{
     margin-top: 40px;
 }
 
-#loginCabecalho div {
+#loginCabecalhoDiv {
     background-color: black;
     height: 20px;
     width: 110px;
     margin-top: 30px;
+}
+
+#loginLista {
+    display:none;
+    position:absolute;
+    margin-left: -500px;
+}
+
+#loginCabecalho:hover #loginLista {
+   display:block;
+}
+
+.loginListaDiv {
+    background-color: rgb(240, 193, 136);
+    border-radius: 30%;
+    margin-top:30px;
+    text-align: center;
+    height: 150px;
+    width:600px;
+}
+
+.loginListaDiv p {
+    font-size:50px;
+}
+
+.loginListaDiv input {
+    font-size:50px;
+    width:500px;
 }
 
 /*titulo trânsito e escola*/
@@ -187,13 +215,11 @@ body{
     background-size:cover;
     background-position: center;
     height:auto;
-    opacity:0.5;
     margin-top: 30px;
 }
 
 .fundoCadastre-seDiv{
     height: 15px;
-    opacity:1;
     margin: 15px 0 15px 0;
     background-image: url(../style/imagens/fundo.png);
     background-size: 100% auto;
@@ -205,7 +231,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     height:500px;
-    opacity:1;
     text-align: center;
 }
 
@@ -304,6 +329,20 @@ body{
 
 .materiaisAcessiveisBotao a{
     text-decoration: none;
+}
+
+/*Roda Pé*/
+#rodaPe {
+    background-color: #05466c;
+    height: 200px;
+    width:100%;
+    border-top: 15px solid black;
+    margin-top: 50%;
+}
+
+#rodaPe img {
+    height: 100px;
+    margin:50px 0 50px 0;
 }
 
 /*Extras*/
