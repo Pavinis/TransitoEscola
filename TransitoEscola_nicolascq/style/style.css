@@ -1,0 +1,203 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:unset;
+}
+
+body{
+    background-color: rgb(153, 255, 0);
+    display:flex;
+    justify-content: center;
+    background-image: url(../style/imagens/fundo.png);
+    background-size: 100% auto;
+}
+
+
+/*Cabeçalho*/
+#stickyCabecalho {
+    overflow:inherit;
+    height: 215px;
+    position:sticky;
+    top:0;
+    z-index:100;
+}
+
+#cabecalho {
+    display:flex;
+    background-color: #05466c;
+    height: 200px;
+    border-bottom: 15px solid black;
+}
+
+#cabecalho a{
+    text-decoration: none;
+}
+
+#prefeituraDeJoinville {
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#prefeituraDeJoinville img {
+    height: 100px;
+    width: auto;
+    margin:20px;
+}
+
+.faixaCabecalho {
+    background-color: white;
+    height:204px;
+    width:80px;
+    margin-bottom: -145;
+}
+
+.botaoCabecalho {
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    border-radius: 100%;
+    height:110px;
+    width:110px;
+    justify-content: center;
+    text-align: center;
+    margin:0 5 30 5;
+    border:5px solid white;
+}
+
+.botaoCabecalho:hover {
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    border-radius: 100%;
+    height:110px;
+    width:110px;
+    margin:0 5 30 5;
+    border:5px solid #05466c;
+    justify-content: center;
+    text-align: center;
+}
+
+.botaoCabecalho img {
+    height:50px;
+    width: 50px;
+    opacity:0.5;
+}
+
+.botaoCabecalho p {
+    font-family:sans-serif;
+    font-size: 30px;
+    opacity:0.5;
+    text-decoration: none;
+    color:black;
+}
+
+.botaoEssaPagina {
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    border-radius: 100%;
+    height:110px;
+    width:110px;
+    margin:0 5 30 5;
+    border:5px solid #05466c;
+    justify-content: center;
+    text-align: center;
+}
+
+.botaoEssaPagina:hover {
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    border-radius: 100%;
+    height:110px;
+    width:110px;
+    margin:0 5 30 5;
+    border:5px solid black;
+    justify-content: center;
+    text-align: center;
+}
+
+.botaoEssaPagina img {
+    height:50px;
+    width: 50px;
+    opacity:1;
+}
+
+.botaoEssaPagina p{
+    font-family:sans-serif;
+    font-size: 30px;
+    opacity:1;
+    text-decoration: none;
+    color:black;
+}
+
+#loginCabecalho {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#loginCabecalho img {
+    height:110px;
+    width: 110px;
+    margin-top: 40px;
+}
+
+#loginCabecalho div {
+    background-color: black;
+    height: 20px;
+    width: 110px;
+    margin-top: 30px;
+}
+
+/*titulo trânsito e escola*/
+#tituloTransitoBorda{
+    border-bottom: 15px solid rgb(0, 0, 0)
+}
+
+#tituloTransito {
+    height:300px;
+    background-image: url("../style/imagens/imagemTitulo.png");
+    background-size:cover;
+    background-position: 50% 80%;
+    opacity:0.5;
+    display:flex;
+    flex-direction: column;
+}
+
+#tituloTransito u {
+    padding: 10% 0 0 5%;
+    font-size: 70px;
+    opacity:0.9;
+    font-style: italic;
+}
+
+#tituloTransito div {
+    height: 15px;
+    opacity:1;
+    margin-top: 10%;
+    background-image: url(../style/imagens/fundo.png);
+    background-size: 100% auto;
+}
+
+/*Extras*/
+
+.row {
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
+
+.column {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height:100%;
+}
+
+.columnTop {
+    display:flex;
+    flex-direction: column;
+    height:100%;
+}
