@@ -12,6 +12,31 @@ body{
     background-size: 100% auto;
 }
 
+/*Fonte e posição do Texto(Séries Iniciais)*/
+
+#iniciaisfp {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 70px;
+    padding-top: 60px;
+    padding-left: 270px;
+    background-image: url(../style/imagens/fundoCadastre-se.png);
+    height: 590px;
+    background-size: cover;
+    background-position: center;
+}
+
+/*cor do texto "séries"*/
+
+#c {
+    color: rgba(255,203,0,255);
+}
+
+/*fonte texto especifico*/
+#f1 {
+    font-size: 30px;
+    margin-right: 40px;
+}
+
 /*Cabeçalho*/
 #stickyCabecalho {
     overflow:inherit;
