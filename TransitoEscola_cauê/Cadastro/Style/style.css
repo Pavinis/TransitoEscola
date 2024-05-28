@@ -1,6 +1,6 @@
 
 
-
+/*Comandos para dar ao fundo o degradê verde */
 body {
     background-color:black;
     background-image:url(Imagens/fundo.png);
@@ -12,12 +12,13 @@ body {
     height: 100%;
 }
 
+/*Caixa branca em volta das caixas de cadastro para destaca-lá*/
 #CaixaCadastro {
     background-color: white;
     display:flex;
     justify-content: center;
     flex-direction: column;
-    margin: 20 0 20 0;
+    margin: 50% 0 20 0;
     width:600px;
     height:800px;
     border: 10px solid black;
@@ -28,6 +29,7 @@ body {
 }
 
 #CaixaCadastro input{
+    border: 2px solid grey;
    font-size: 40;
 }
 
@@ -197,6 +199,20 @@ body {
     border-right: 0px solid black;
 }
 
+/*Roda Pé*/
+#rodaPe {
+    background-color: #05466c;
+    height: 200px;
+    width:100%;
+    border-top: 15px solid black;
+    margin-top: 50%;
+}
+
+#rodaPe img {
+    height: 100px;
+    margin:50px 0 50px 0;
+}
+
 /*Extras*/
 .row {
     display:flex;
@@ -215,4 +231,8 @@ body {
     display:flex;
     flex-direction: column;
     height:100%;
+}
+
+.margin {
+    margin:50%;
 }
