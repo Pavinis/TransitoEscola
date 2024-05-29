@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Transito e Escola</title>
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/style_PaginaInicial.css">
+    <script src="../Script/paginaInicial.js"></script>
 </head>
 
 <body>
     <div class="columnTop">
         <div id="stickyCabecalho">
+            <div class="column">
             <div id="cabecalho">
                 <div id="prefeituraDeJoinville">
                     <img src="../style/imagens/Logotipo_Prefeitura.png">
@@ -19,7 +21,7 @@
 
                         </div>
                     </div>
-                    <a href="../placeholder">
+                    <a href="../index/pagInicial_Index.html">
                         <div class="botaoEssaPagina" id="inicioCabecalho">
                             <div class="row">
                                 <img src="../style/imagens/inicio.png">
@@ -34,7 +36,7 @@
 
                         </div>
                     </div>
-                    <a href="../placeholder">
+                    <a href="../index/seriesiniciais.html">
                         <div class="botaoCabecalho" id="fund1Cabecalho">
                             <div class="row">
                                 <img src="../style/imagens/fund1.png">
@@ -75,9 +77,11 @@
                 </div>
                 <div class="column">
                     <div id="loginCabecalho">
+                        <div onclick="abrirLogin()">
                         <img src="../style/imagens/login_placeholder.png">
                         <div id="loginCabecalhoDiv">
 
+                        </div>
                         </div>
                         <div id="loginLista">
                             <form method="post" action="#">
@@ -87,16 +91,20 @@
                                         <input type="text" id="nomeLogin" required></input>
                                     </div>
                                     <div class="loginListaDiv">
-                                        <p>Senha</p>
+                                        <p>Codigo De Acesso</p>
                                         <input type="text" id="senhaLogin" required></input>
                                     </div>
-                                    <button type="button" id="logarConta" onclick="logarConta()">Entrar Na Conta</button>
+                                    <button type="button" id="logarConta" onclick="logarConta()"><p>Entrar Na Conta</p></button>
                                 </div>
                             </form>
                         </div>
                     </div>
                 </div>
+                </div>
             </div>
+        </div>
+        <div id="loginFundo">
+
         </div>
         <div id="tituloTransitoBorda">
             <div id="tituloTransito">
@@ -112,7 +120,7 @@
             </div>
             <div id="cadastre-se">
                 <p>Pare!!<br>Você já fez o seu Cadastro?</p>
-                <a href="../placeholder">
+                <a href="../index/Página de Cadastro.html">
                     <div id="botaoCadastrar-se">
                         <p>CADASTRAR-SE</p>
                     </div>
