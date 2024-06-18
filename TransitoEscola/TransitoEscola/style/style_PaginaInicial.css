@@ -159,10 +159,6 @@ body{
     position:absolute;
     margin-left: -67vw;
 }
-/*
-#loginCabecalho:hover #loginLista {
-   display:block;
-}*/
 
 .loginListaDiv {
     background-color: rgb(240, 193, 136);
@@ -413,12 +409,16 @@ body{
     height: 200px;
     width:100%;
     border-top: 15px solid black;
-    margin-top: 50%;
+    margin: 0;
 }
 
 #rodaPe img {
     height: 100px;
     margin:50px 0 50px 0;
+}
+
+.pulaLinha {
+    height: 100px;
 }
 
 
@@ -441,4 +441,10 @@ body{
     display:flex;
     flex-direction: column;
     height:100%;
+}
+
+.reverseRow {
+    display:flex;
+    flex-direction: row-reverse;
+    width:100%;
 }
